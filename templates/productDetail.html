@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product details</title>
+  <link rel="stylesheet" href="../static/styles.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- </nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1D2128FF;">
+    <a class="navbar-brand" href="#">CellP7</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <div class="header-content">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link " href="/index">
+              <i class="fas fa-mobile"></i>
+              All phones
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/cart">
+              <!-- <i class="fas fa-shopping-cart"> -->
+              <i class="fas fa-shopping-cart"></i>
+              View cart
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="navbar-nav ms-auto">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user-circle fa-lg avatar"
+              style=" display: flex; color: #ffffff; width: 40; height: 40;"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/login">Login</a>
+            <a class="dropdown-item" href="/register">Register</a>
+            <a class="dropdown-item" href="/">Log Out</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <button class="back">
+      <a href="/phones" style="color: black;">
+        <i class="fas fa-chevron-left"></i>
+        Back to products
+      </a>
+    </button>
+    <div class="container-fluid">
+      <div class="wrapper row product-details">
+        <div class="preview col-md-6">
+          <div class="preview-pic">
+            <img src="../media/phone/ip14-do.jpg" alt="iphone">
+
+          </div>
+          <ul class="preview-thumbnail nav nav-tabs">
+            <li class="preview-1"><img class="preview-tab" src="../media/phone/ip14-xanh1.jpg"></img></li>
+            <li class="preview-2"><img class="preview-tab" src="../media/phone/ip14-xanh2.jpg"></img></li>
+            <li class="preview-3"><img class="preview-tab" src="../media/phone/ip14-xanh3.jpg"></img></li>
+            <li class="preview-4"><img class="preview-tab" src="../media/phone/ip14-xanh4.jpg"></img></li>
+          </ul>
+        </div>
+        <div class="details col-md-6">
+          <h3 class="product-title">Product name</h3>
+          <div class="rating">
+            4.5
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star-half checked"></span>
+            </div>
+            368 reviews
+          </div>
+          <h3 class="price">
+            20.0000.000 VND
+          </h3>
+          <div class="colors">
+            <h5>color:</h5>
+            <span class="oval" style="background-color: red;"></span>
+            <span class="oval" style="background-color: black;"></span>
+            <span class="oval" style="background-color: pink;"></span>
+            <span class="oval" style="background-color: blue;"></span>
+            <span class="oval" style="background-color: green;"></span>
+          </div>
+          <div class="delivery">
+            <h5>Delivery</h5>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <!-- <div class="action"> -->
+          <button type="button" class="btn btn-outline-primary add-to-cart">Add to cart</button>
+          <button type="button" class="btn btn-primary check-out">Checkout</button>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- review -->
+    <div class="review-card">
+      <h5>Reviews (300)</h5>
+      <hr />
+      <div class="review-content">
+        <div class="wrapper row">
+          <div class="review-stats col-md-3">
+            stats
+          </div>
+          <div class="review-customer col-md-9">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <div class="review-add">
+          <h5>Leave a review</h5>
+          <form action="">
+            <div class="wrapper row">
+              <div class="form-group col-md-9">
+                <label for="inputPassword2" class="sr-only">Password</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Write your comment here">
+              </div>
+              <button type="submit" class="btn btn-primary col-md-3">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- similar product -->
+    <div class="suggest">
+      <h5 style="padding-bottom: 50px;"><b>Similar products</b></h5>
+      <div class="wrapper row">
+        <div class="col-md-3">
+          <div class="suggest-card">
+            <img src="../media/phone/ip14-do.jpg" alt="Iphone" class="card-img-phone">
+            <div class="suggest-card-desc">
+              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <div class="wrapper row">
+                <div class="suggest-card-star col-md-5" style="font-size: 14px;">
+                  <b>4.7</b> (456)
+                  <i class="fa fa-star"></i>
+                </div>
+                <h6 class="suggest-card-price col-md-7"><b>20.000.000 VND</b></h6>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="suggest-card">
+            <img src="../media/phone/ip14-do.jpg" alt="Iphone" class="card-img-phone">
+            <div class="suggest-card-desc">
+              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <div class="wrapper row">
+                <div class="suggest-card-star col-md-5" style="font-size: 14px;">
+                  <b>4.7</b> (456)
+                  <i class="fa fa-star"></i>
+                </div>
+                <h6 class="suggest-card-price col-md-7"><b>20.000.000 VND</b></h6>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="suggest-card">
+            <img src="../media/phone/ip14-do.jpg" alt="Iphone" class="card-img-phone">
+            <div class="suggest-card-desc">
+              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <div class="wrapper row">
+                <div class="suggest-card-star col-md-5" style="font-size: 14px;">
+                  <b>4.7</b> (456)
+                  <i class="fa fa-star"></i>
+                </div>
+                <h6 class="suggest-card-price col-md-7"><b>20.000.000 VND</b></h6>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="suggest-card">
+            <img src="../media/phone/ip14-do.jpg" alt="Iphone" class="card-img-phone">
+            <div class="suggest-card-desc">
+              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <div class="wrapper row">
+                <div class="suggest-card-star col-md-5" style="font-size: 14px;">
+                  <b>4.7</b> (456)
+                  <i class="fa fa-star"></i>
+                </div>
+                <h6 class="suggest-card-price col-md-7"><b>20.000.000 VND</b></h6>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- Footer  -->
+  <footer class="footer-container">
+    <p class="footer-heading">CellP7</p>
+    <p class="about-text">About Us</p>
+    <p class="address-text">Address: 268 Ly Thuong Kiet, Ward 14, District 10, HCM City <br> Tel: 0999888777</p>
+    <hr class="divider">
+    <p class="footer-copyright">© 2022 HCMUT</p>
+  </footer>
+</body>
+
+
+</html>
