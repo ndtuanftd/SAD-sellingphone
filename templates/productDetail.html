@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product details</title>
+  <title>product details</title>
   <link rel="stylesheet" href="../static/styles.css">
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.4/css/all.css">
   <!-- Latest compiled and minified CSS -->
@@ -21,12 +21,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 
+
 </head>
 
 <body>
-
-  <!-- </nav> -->
-
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1D2128FF;">
     <a class="navbar-brand" href="#">CellP7</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -44,10 +43,17 @@
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/cart">
-              <!-- <i class="fas fa-shopping-cart"> -->
-              <i class="fas fa-shopping-cart"></i>
-              View cart
+
+              <i class="fas fa-user"></i>
+              View Users
             </a>
+          <li class="nav-item active">
+            <a class="nav-link" href="/add-product">
+              <i class="fas fa-plus-circle"></i>
+
+              Add Product
+            </a>
+          </li>
           </li>
         </ul>
       </div>
@@ -72,6 +78,7 @@
   </nav>
 
 
+
   <div class="container">
     <button class="back">
       <a href="/phones" style="color: black;">
@@ -82,11 +89,12 @@
     <div class="container-fluid">
       <div class="wrapper row product-details">
         <div class="preview col-md-6">
-          <div class="preview-pic">
-            <img src="../media/phone/ip14-do.jpg" alt="iphone">
-
+          <div class="preview-pic card">
+            <center class="card-body">
+              <img src="../media/phone/ip14-do.jpg" alt="iphone">
+            </center>
           </div>
-          <ul class="preview-thumbnail nav nav-tabs">
+          <ul class="preview-thumbnail nav">
             <li class="preview-1"><img class="preview-tab" src="../media/phone/ip14-xanh1.jpg"></img></li>
             <li class="preview-2"><img class="preview-tab" src="../media/phone/ip14-xanh2.jpg"></img></li>
             <li class="preview-3"><img class="preview-tab" src="../media/phone/ip14-xanh3.jpg"></img></li>
@@ -96,15 +104,19 @@
         <div class="details col-md-6">
           <h3 class="product-title">Product name</h3>
           <div class="rating">
-            4.5
-            <div class="stars">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star-half checked"></span>
+            <div class="row">
+              <b class="col-1">4.5</b>
+              <div class="stars col-5">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half checked"></span>
+              </div>
+              <div class="4">
+                <b>368 </b> reviews
+              </div>
             </div>
-            368 reviews
           </div>
           <h3 class="price">
             20.0000.000 VND
@@ -120,35 +132,140 @@
           <div class="delivery">
             <h5>Delivery</h5>
             <select class="form-select" aria-label="Default select example">
-              <option selected>Open this select menu</option>
+              <option selected>Standard delivery - Est. arrival: 24/12</option>
               <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+
             </select>
           </div>
-          <!-- <div class="action"> -->
-          <button type="button" class="btn btn-outline-primary add-to-cart">Add to cart</button>
-          <button type="button" class="btn btn-primary check-out">Checkout</button>
-          <!-- </div> -->
+          <div class="action">
+            <button type="button" class="btn btn-outline-primary add-to-cart" style="bottom: 0px;">
+              <i class="fas fa-cart-plus"></i> Add to cart</button>
+            <button type="button" class="btn btn-primary check-out">Checkout</button>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- review -->
     <div class="review-card">
-      <h5>Reviews (300)</h5>
+      <h5 class="review-title">Reviews (368)</h5>
       <hr />
       <div class="review-content">
         <div class="wrapper row">
-          <div class="review-stats col-md-3">
-            stats
+          <div class="review-stats col-md-4">
+            <center>
+              <h3>4.5 </h3>
+              <div class="progress-stat-bar row">
+                5
+                <i class="fa fa-star col-md-1" style="padding: 0px; margin-top: 4px;"></i>
+                <div class="progress col-9" style=" padding: 0px">
+                  <div class="progress-bar " role="progressbar" style="width: 50%; background:#f3c63f;"
+                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                50%
+              </div>
+
+              <div class="progress-stat-bar row">
+                4
+                <i class="fa fa-star col-md-1" style="padding: 0px; margin-top: 4px;"></i>
+                <div class="progress col-9" style=" padding: 0px">
+                  <div class="progress-bar " role="progressbar" style="width: 50%; background:#f3c63f"
+                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                50%
+              </div>
+              <div class="progress-stat-bar row">
+                3
+                <i class="fa fa-star col-md-1" style="padding: 0px; margin-top: 4px;"></i>
+                <div class="progress col-9" style=" padding: 0px">
+                  <div class="progress-bar " role="progressbar" style="width: 20%; background:#f3c63f"
+                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                20%
+              </div>
+              <div class="progress-stat-bar row">
+                2
+                <i class="fa fa-star col-md-1" style="padding: 0px; margin-top: 4px;"></i>
+                <div class="progress col-9" style=" padding: 0px">
+                  <div class="progress-bar " role="progressbar" style="width: 50%; background:#f3c63f"
+                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                50%
+              </div>
+              <div class="progress-stat-bar row">
+                1
+                <i class="fa fa-star col-md-1" style="padding: 0px; margin-top: 4px;"></i>
+                <div class="progress col-9" style=" padding: 0px">
+                  <div class="progress-bar " role="progressbar" style="width: 50%; background:#f3c63f"
+                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                50%
+              </div>
+            </center>
           </div>
-          <div class="review-customer col-md-9">
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
+          <div class="review-customer col-md-8">
+            <div class="card">
+              <div class="card-body">
+                <b>Annie Haley</b>
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half checked"></span>
+                </div>
+                <p class="comment">Commodo consequat quis nisi dolor laboris in aute occaecat quis consequat culpa
+                  consectetur aliqua. Laborum cupidatat id reprehenderit non cillum irure sunt commodo.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <b>Annie Haley</b>
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half checked"></span>
+                </div>
+                <p class="comment">Commodo consequat quis nisi dolor laboris in aute occaecat quis consequat culpa
+                  consectetur aliqua. Laborum cupidatat id reprehenderit non cillum irure sunt commodo.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <b>Annie Haley</b>
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half checked"></span>
+                </div>
+                <p class="comment">Commodo consequat quis nisi dolor laboris in aute occaecat quis consequat culpa
+                  consectetur aliqua. Laborum cupidatat id reprehenderit non cillum irure sunt commodo.</p>
+              </div>
+            </div>
+            <span id="dots"></span>
+            <!-- View more -->
+            <span id="more" style="display: none;">
+              <div class="card">
+                <div class="card-body">
+                  <b>Annie Haley</b>
+                  <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half checked"></span>
+                  </div>
+                  <p class="comment">Commodo consequat quis nisi dolor laboris in aute occaecat quis consequat culpa
+                    consectetur aliqua. Laborum cupidatat id reprehenderit non cillum irure sunt commodo.</p>
+                </div>
+              </div>
+            </span>
+            <button class="btn " onclick="myFunction()" id="myBtn" style="float: right; ">View all <i
+                class="fas fa-chevron-right"></i></button>
           </div>
         </div>
         <div class="review-add">
@@ -156,10 +273,25 @@
           <form action="">
             <div class="wrapper row">
               <div class="form-group col-md-9">
-                <label for="inputPassword2" class="sr-only">Password</label>
-                <input type="password" class="form-control" id="inputPassword2" placeholder="Write your comment here">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                  placeholder="Write your commend here"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary col-md-3">Submit</button>
+              <div class="col-md-3">
+                <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+                <button type="submit" class="btn btn-primary"
+                  style="margin-left: 47px;margin-top: 10px;">Submit</button>
+              </div>
             </div>
           </form>
         </div>
@@ -243,8 +375,6 @@
 
   </div>
 
-
-
   <!-- Footer  -->
   <footer class="footer-container">
     <p class="footer-heading">CellP7</p>
@@ -253,7 +383,25 @@
     <hr class="divider">
     <p class="footer-copyright">© 2022 HCMUT</p>
   </footer>
-</body>
 
+
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = 'View all <i class="fas fa-chevron-right"></i>';
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = 'View less <i class="fas fa-chevron-left"></i>';
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+</body>
 
 </html>

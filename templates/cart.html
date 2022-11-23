@@ -72,7 +72,7 @@
     <!-- order summary -->
     <div class="cart-container">
       <h3 class="cart-title"><b>Order summary</b></h3>
-      <div class="cart-items">
+      <div class="cart-items card">
         <div class="cart-item wrapper row">
           <img class="cart-item-img col-md-3" src="../media/phone/ip14-den.jpg" alt="iphone">
           <div class="cart-item-details col-md-9">
@@ -89,20 +89,84 @@
               <h6 style="padding-top: 30px;">Quantity</h6>
             </div>
             <div class="col-md-3 col-lg-3 col-xl-3 d-flex">
-              <button class="btn btn-link px-2"
+              <button class="btn btn-link px-1"
                 onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                 <i class="fas fa-minus"></i>
               </button>
 
               <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" />
 
-              <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+              <button class="btn btn-link px-1" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                 <i class="fas fa-plus"></i>
               </button>
 
             </div>
           </div>
         </div>
+        <div class="cart-item wrapper row">
+          <img class="cart-item-img col-md-3" src="../media/phone/ip14-den.jpg" alt="iphone">
+          <div class="cart-item-details col-md-9">
+            <div class="cart-item-desc row">
+              <h6 class="col-md-6"><b>Product name</b></h6>
+              <div class="col-md-6" style="padding-left: 95px;">
+                20.0000.000 VND
+                <button class="btn" style="padding-top: 0px;">
+                  <i class="fas fa-trash-alt"></i>
+                </button>
+              </div>
+            </div>
+            <div class="cart-item-quantity">
+              <h6 style="padding-top: 30px;">Quantity</h6>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 d-flex">
+              <button class="btn btn-link px-1"
+                onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                <i class="fas fa-minus"></i>
+              </button>
+
+              <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" />
+
+              <button class="btn btn-link px-1" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                <i class="fas fa-plus"></i>
+              </button>
+
+            </div>
+          </div>
+        </div>
+        <div class="cart-item wrapper row">
+          <img class="cart-item-img col-md-3" src="../media/phone/ip14-den.jpg" alt="iphone">
+          <div class="cart-item-details col-md-9">
+            <div class="cart-item-desc row">
+              <h6 class="col-md-6"><b>Product name</b></h6>
+              <div class="col-md-6" style="padding-left: 95px;">
+                20.0000.000 VND
+                <button class="btn" style="padding-top: 0px;">
+                  <i class="fas fa-trash-alt"></i>
+                </button>
+              </div>
+            </div>
+            <div class="cart-item-quantity">
+              <h6 style="padding-top: 30px;">Quantity</h6>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 d-flex">
+              <button class="btn btn-link px-1"
+                onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                <i class="fas fa-minus"></i>
+              </button>
+
+              <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" />
+
+              <button class="btn btn-link px-1" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                <i class="fas fa-plus"></i>
+              </button>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
         <button class="btn btn-primary btn-order">Proceed to payment</button>
       </div>
     </div>
