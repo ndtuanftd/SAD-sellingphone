@@ -25,61 +25,6 @@
 </head>
 
 <body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1D2128FF;">
-    <a class="navbar-brand" href="#"><img src="../media/logo-header-main_07.png" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-      <div class="header-content">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./admin-index.html">
-              <center><i class="fas fa-mobile"></i>
-                All phones</center>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./admin-manageUser.html">
-              <center>
-                <i class="fas fa-user"></i>
-                View Users
-              </center>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./admin-addProduct.html">
-              <center>
-                <i class="fas fa-plus-circle"></i>
-                Add Product
-              </center>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="navbar-nav ms-auto">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user-circle fa-lg avatar justify-content-center"
-              style=" display: flex; color: #ffffff; width: 40; height: 40;"></i>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="./login.html">Login</a>
-            <a class="dropdown-item" href="./register.html">Register</a>
-            <a class="dropdown-item" href="./login.html">Log Out</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-
 
   <div class="container">
     <button class="back">
@@ -377,30 +322,6 @@
     </div>
 
   </div>
-
-  <!-- Footer  -->
-
-  <footer class="footer-container">
-
-    <div class="row align-items-center py-4">
-      <div class="col-4"></div>
-      <div class="col-2">
-        <img class="footer-logo" src="../media/Logo_07.svg" alt="logo">
-      </div>
-      <div class="col-6">
-        <p class="about-text">About Us</p>
-        <p class="address-text">Address: 268 Ly Thuong Kiet, Ward 14, District 10, HCM City <br> Tel: 0999888777</p>
-
-      </div>
-    </div>
-    <!-- Copyright -->
-    <div class="text-center text-dark p-3" style="background-color: #e4e4e4;">
-      © 2022 Copyright:
-      <a class="text-dark" href="#">HCMUT</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-
 
   <script>
     function myFunction() {

@@ -5,32 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="../static/register.css">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="../static/login.css">
 </head>
 
 <body>
     <div class="background"></div>
     <div class="container">
         <p class="header">
-            Sign up
+            Sign in
         </p>
-        <form method="POST" action="/register" class="textbox">
+        <form method="POST" action="login_processing.php" class="textbox">
             <label for="name" class="label">Username</label>
             <input type="text" id="name" placeholder="Enter your username" name="username" class="form-input" required>
-
-            <label for="name" class="label">Email</label>
-            <input type="email" id="name" placeholder="Enter your username" name="email" class="form-input" required>
 
             <label for="password" class="label">Password</label>
             <input type="password" id="password" placeholder="Enter your password" name="password" class="form-input"
                 required>
 
-            <input type="submit" class="button" value="Sign up">
+            <input type="submit" name="login" class="button" value="Sign in">
 
         </form>
 
-        <p class="text">Already have an account? <a href="/login">Log in</a></p>
+        <p class="text">No account? <a href="register.php">Sign up now</a></p>
     </div>
 
 

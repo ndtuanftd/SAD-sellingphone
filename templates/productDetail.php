@@ -5,80 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>product details</title>
-  <link rel="stylesheet" href="../static/styles.css">
-  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.4/css/all.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-
-  <!-- jQuery library -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-
-  <!-- Popper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
 </head>
 
 <body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1D2128FF;">
-    <a class="navbar-brand" href="#"><img src="../media/logo-header-main_07.png" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-      <div class="header-content">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link " href="./index.html">
-              <center>
-                <i class="fas fa-mobile"></i>
-                All phones
-              </center>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./cart.html">
-              <center>
-
-                <i class="fas fa-user"></i>
-                View cart
-              </center>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="navbar-nav ms-auto">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user-circle fa-lg avatar justify-content-center"
-              style=" display: flex; color: #ffffff; width: 40; height: 40;"></i>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="./login.html">Login</a>
-            <a class="dropdown-item" href="./register.html">Register</a>
-            <a class="dropdown-item" href="./login.html">Log Out</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-
-
   <div class="container">
     <button class="back">
-      <a href="/phones" style="color: black;">
+      <a href="index.php?page=home" style="color: black;">
         <i class="fas fa-chevron-left"></i>
         Back to products
       </a>
@@ -99,7 +31,7 @@
           </ul>
         </div>
         <div class="details col-md-6">
-          <h3 class="product-title">Product name</h3>
+          <h3 class="product-title">Iphone 14</h3>
           <div class="rating">
             <div class="row">
               <b class="col-1">4.5</b>
@@ -303,7 +235,7 @@
           <div class="suggest-card">
             <img src="../media/phone/ip14-do.jpg" alt="Iphone" class="card-img-phone">
             <div class="suggest-card-desc">
-              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <h6 class="suggest-card-title"><b>Iphone 14</b></h6>
               <div class="wrapper row">
                 <div class="suggest-card-star col-md-5" style="font-size: 14px;">
                   <b>4.7</b> (456)
@@ -317,9 +249,9 @@
         </div>
         <div class="col-md-3">
           <div class="suggest-card">
-            <img src="../media/phone/ip14-do.jpg" alt="Iphone" class="card-img-phone">
+            <img src="../media/phone/ip14-den.jpg" alt="Iphone" class="card-img-phone">
             <div class="suggest-card-desc">
-              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <h6 class="suggest-card-title"><b>Iphone 14</b></h6>
               <div class="wrapper row">
                 <div class="suggest-card-star col-md-5" style="font-size: 14px;">
                   <b>4.7</b> (456)
@@ -333,9 +265,9 @@
         </div>
         <div class="col-md-3">
           <div class="suggest-card">
-            <img src="../media/phone/ip14-do.jpg" alt="Iphone" class="card-img-phone">
+            <img src="../media/phone/ip14-xanh.jpg" alt="Iphone" class="card-img-phone">
             <div class="suggest-card-desc">
-              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <h6 class="suggest-card-title"><b>Iphone 14</b></h6>
               <div class="wrapper row">
                 <div class="suggest-card-star col-md-5" style="font-size: 14px;">
                   <b>4.7</b> (456)
@@ -349,9 +281,9 @@
         </div>
         <div class="col-md-3">
           <div class="suggest-card">
-            <img src="../media/phone/ip14-do.jpg" alt="Iphone" class="card-img-phone">
+            <img src="../media/phone/ip14-den.jpg" alt="Iphone" class="card-img-phone">
             <div class="suggest-card-desc">
-              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <h6 class="suggest-card-title"><b>Iphone 14</b></h6>
               <div class="wrapper row">
                 <div class="suggest-card-star col-md-5" style="font-size: 14px;">
                   <b>4.7</b> (456)
@@ -369,31 +301,6 @@
     </div>
 
   </div>
-
-  <!-- Footer  -->
-  <footer class="footer-container">
-
-    <div class="row align-items-center py-4">
-      <div class="col-4"></div>
-      <div class="col-2">
-        <img class="footer-logo" src="../media/Logo_07.svg
-        " alt="logo">
-      </div>
-      <div class="col-6">
-        <p class="about-text">About Us</p>
-        <p class="address-text">Address: 268 Ly Thuong Kiet, Ward 14, District 10, HCM City <br> Tel: 0999888777</p>
-
-      </div>
-    </div>
-    <!-- Copyright -->
-    <div class="text-center text-dark p-3" style="background-color: #e4e4e4;">
-      © 2022 Copyright:
-      <a class="text-dark" href="#">HCMUT</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-
-
   <script>
     function myFunction() {
       var dots = document.getElementById("dots");
