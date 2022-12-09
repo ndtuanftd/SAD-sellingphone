@@ -23,7 +23,7 @@
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col" style="padding-left: 200px; padding-right: 200px;">
             <h5><b>Purchase history</b></h5>
-            <h6>Username: johndoe</h6>
+            <h6>Username: admin</h6>
             <div class="user-orders">
               <div class="order-items">
                 <div id="accordion">

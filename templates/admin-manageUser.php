@@ -39,7 +39,7 @@
         <tbody>
           <tr>
             <th>admin</th>
-            <th>trinhpham@company.com</th>
+            <th>admin@company.com</th>
             <th><button class="btn btn-primary"><a href="index.php?page=admin-purchaseDetail" style="color: white">View Purchases</a></button></th>
           </tr>
         </tbody>

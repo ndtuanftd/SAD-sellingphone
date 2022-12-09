@@ -110,13 +110,13 @@
 
     <!-- similar product -->
     <div class="suggest">
-      <h5 style="padding-bottom: 50px;"><b>You may also like</b></h5>
+      <h5 style="padding-bottom: 50px;"><b>Similar products</b></h5>
       <div class="wrapper row">
         <div class="col-md-3">
           <div class="suggest-card">
             <img src="../media/phone/ip14-do.jpg" alt="Iphone" class="card-img-phone">
             <div class="suggest-card-desc">
-              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <h6 class="suggest-card-title"><b>Iphone 14</b></h6>
               <div class="wrapper row">
                 <div class="suggest-card-star col-md-5" style="font-size: 14px;">
                   <b>4.7</b> (456)
@@ -130,9 +130,9 @@
         </div>
         <div class="col-md-3">
           <div class="suggest-card">
-            <img src="../media/phone/samsung2.jpg" alt="Iphone" class="card-img-phone">
+            <img src="../media/phone/ip14-den.jpg" alt="Iphone" class="card-img-phone">
             <div class="suggest-card-desc">
-              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <h6 class="suggest-card-title"><b>Iphone 14</b></h6>
               <div class="wrapper row">
                 <div class="suggest-card-star col-md-5" style="font-size: 14px;">
                   <b>4.7</b> (456)
@@ -146,9 +146,9 @@
         </div>
         <div class="col-md-3">
           <div class="suggest-card">
-            <img src="../media/phone/samsung.jpg" alt="Iphone" class="card-img-phone">
+            <img src="../media/phone/ip14-xanh.jpg" alt="Iphone" class="card-img-phone">
             <div class="suggest-card-desc">
-              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <h6 class="suggest-card-title"><b>Iphone 14</b></h6>
               <div class="wrapper row">
                 <div class="suggest-card-star col-md-5" style="font-size: 14px;">
                   <b>4.7</b> (456)
@@ -162,9 +162,9 @@
         </div>
         <div class="col-md-3">
           <div class="suggest-card">
-            <img src="../media/phone/samsung-z.jpeg" alt="Iphone" class="card-img-phone">
+            <img src="../media/phone/ip14-den.jpg" alt="Iphone" class="card-img-phone">
             <div class="suggest-card-desc">
-              <h6 class="suggest-card-title"><b>Product name</b></h6>
+              <h6 class="suggest-card-title"><b>Iphone 14</b></h6>
               <div class="wrapper row">
                 <div class="suggest-card-star col-md-5" style="font-size: 14px;">
                   <b>4.7</b> (456)
@@ -172,10 +172,13 @@
                 </div>
                 <h6 class="suggest-card-price col-md-7"><b>20.000.000 VND</b></h6>
               </div>
+
             </div>
           </div>
         </div>
+
       </div>
+
     </div>
   </div>
 </body>

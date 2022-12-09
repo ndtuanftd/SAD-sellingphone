@@ -29,6 +29,13 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .logout-button{
+            border: none;
+            background: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -106,11 +113,17 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="login.php">Log in</a>
                         <a class="dropdown-item" href="register.php">Register</a>
-                        <a class="dropdown-item">
-                            <form method='post' action='logout.php'>
-                                <input type='submit' name='logout' value='Log out'/>
-                            </form>
-                        </a>
+                        <?php
+                            if (isset($_SESSION["cookie_name"]) && $_SESSION["cookie_name"] == "admin"){
+                        ?>
+                                <a class="dropdown-item">
+                                    <form method='post' action='logout.php'>
+                                        <input type='submit' class='logout-button' name='logout' value='Log out'/>
+                                    </form>
+                                </a>
+                        <?php
+                            }
+                        ?>
                     </div>
                 </li>
             </ul>
