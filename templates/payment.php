@@ -71,12 +71,12 @@
                         <input type="text" class="form-control" placeholder="123-456-7890">
                       </div>
                     </div>
-                    <div class="form-group row">
+                    <!-- <div class="form-group row">
                       <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                       <div class="col-sm-10">
                         <input type="email" class="form-control" id="inputEmail3" placeholder="example@domain.com">
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -120,7 +120,7 @@
                       </div>
                       <hr class="my-2">
                       <div class="d-flex justify-content-between mb-4">
-                        <p class="mb-2">Total(Incl. taxes)</p>
+                        <p class="mb-2">Total (Taxes included)</p>
                         <p class="mb-2"><b>58.000.000 VND</b></p>
                       </div>
                     </div>
